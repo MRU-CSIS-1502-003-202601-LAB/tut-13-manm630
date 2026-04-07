@@ -14,6 +14,9 @@ public class LootFormattingTests {
         Loot sword = new Weapon("Excalibur", "Legendary", 50);
         String expected = "Weapon,Excalibur,Legendary,50";
         assertEquals(expected, sword.asCsvRow(), "Weapon CSV format is incorrect.");
+        
+
+        }
     }
 
     @Test

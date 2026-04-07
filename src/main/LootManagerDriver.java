@@ -19,5 +19,7 @@ public class LootManagerDriver {
         lootManager.displayInventory();
 
         lootManager.save(END_FILE_PATH);
+
+
     }
 }
