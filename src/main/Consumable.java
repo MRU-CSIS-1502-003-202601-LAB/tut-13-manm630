@@ -13,8 +13,9 @@ public class Consumable extends Loot {
         return String.format("Big pot of Shield (common): %d Sheild", restoreAmount);
 
     }
+
     
-    public String asCsvRecord() {
+    public String asCsvRow() {
         return String.format("Consumable,%s,%s,%d", getName(), getRarity(), restoreAmount );
     }
  }

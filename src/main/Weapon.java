@@ -14,7 +14,7 @@ public class Weapon extends Loot {
         return String.format(" Poisonous Sword (elite): %d", damage);
     }
     
-    public String asCsvRecord() {
+    public String asCsvRow() {
         return String.format("Weapon,%s,%s,%d", getName(), getRarity(), damage );
     }
 }
